@@ -13,10 +13,8 @@
   width: calc((100% - 24px * 3) / 4);
 }
 .team-pic {
-  margin-bottom: 32px;
 }
 .team-name {
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -24,8 +22,13 @@
   color: #2e2f42;
 }
 .team-position {
-  margin-bottom: 32px;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
+}
+.team-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
 }

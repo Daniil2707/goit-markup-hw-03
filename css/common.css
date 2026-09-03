@@ -5,7 +5,19 @@ body {
   color: #434455;
   background-color: #fff;
 }
-ul {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
   list-style-type: none;
 }
 a {
@@ -18,10 +30,27 @@ button {
 address {
   font-style: normal;
 }
+img {
+  display: block;
+}
+.sr-only {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  margin: -1px;
+}
 .section {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 .section-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -31,7 +60,14 @@ address {
 .accent {
   color: #4d5ae5;
 }
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 .logo {
+  display: flex;
+  align-items: center;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -41,6 +77,8 @@ address {
   color: #2e2f42;
 }
 .btn {
+  display: block;
+  margin: 0 auto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
